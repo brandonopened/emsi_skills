@@ -7,5 +7,7 @@ payload = "client_id=<CLIENTID>&client_secret=<SECRET>&grant_type=client_credent
 response = requests.request("POST", url, headers=headers, data=payload)
 
 print(response.text)
-# original code from https://api.emsidata.com/guides/oauth-2-0
-# special thanks to Bill Thomas from ACT who helped get this working with the 'headers' bit!
+"""
+- original code from https://api.emsidata.com/guides/oauth-2-0
+- special thanks to Bill Thomas from ACT who helped get this working with the 'headers' bit!
+"""
